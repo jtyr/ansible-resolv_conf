@@ -58,6 +58,13 @@ resolv_conf_options: []
 ```
 
 
+Notes
+-----
+
+In order to prevent `resolv.conf` being changed by DHCP, set `PEERDNS=no` in your
+`network-scripts` on RedHat or `SET_DNS='no'` in `/etc/default/dhcpcd` on Debian.
+
+
 License
 -------
 
