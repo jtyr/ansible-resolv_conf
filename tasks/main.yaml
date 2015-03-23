@@ -4,3 +4,5 @@
   template:
     src: resolv.conf.j2
     dest: "{{ resolv_conf_file }}"
+  tags:
+    - resolv_conf_config
